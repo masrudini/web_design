@@ -1,0 +1,628 @@
+/* Install Poppins's Fonts */
+@font-face {
+	font-family: Poppins;
+	src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+/* Install Nunito's Fonts */
+@font-face {
+	font-family: Nunito;
+	src: url(../assets/fonts/Nunito/Nunito-Regular.ttf);
+}
+
+body {
+	font-family: Poppins;
+	background-color: #fafafa;
+	font-size: 1em;
+}
+
+/* General */
+body {
+	font-family: Poppins;
+	background-color: #fafafa;
+	font-size: 1em;
+	margin: 0px 60px;
+}
+
+h5 {
+	font-size: 1.125em;
+	font-weight: 600;
+	color: #232631;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: 600;
+	color: #5a4fcf;
+}
+
+h2 {
+	font-size: 1.75em;
+	font-weight: 600;
+	color: #232631;
+}
+
+p {
+	color: #656565;
+	font-size: 1em;
+}
+
+#star {
+	height: 24px;
+	margin-right: 8px;
+}
+
+.btn-primary {
+	background-color: #fdc886;
+	border: none;
+	border-radius: 12px;
+	color: #232631;
+	padding: 16px 28px;
+	font-weight: 600;
+}
+
+.btn-primary:hover {
+	background-color: #fdc886;
+	border: none;
+	border-radius: 12px;
+	color: #232631;
+	padding: 16px 28px;
+	font-weight: 600;
+}
+
+.card-title {
+	font-size: 1.125em;
+	color: #232631;
+	font-weight: 600;
+	/* margin: 0px auto 12px auto; */
+}
+
+.chevron-right {
+	height: 0.5em;
+	margin-left: 10px;
+}
+
+.arrow-right {
+	height: 1em;
+}
+
+#rating-text {
+	color: #ffb800;
+	font-weight: 600;
+}
+
+#amount-text {
+	color: #656565;
+}
+
+#price-text {
+	font-weight: 600;
+}
+
+#icon-location {
+	height: 24px;
+}
+/* Navbar */
+.nav-item {
+	margin-right: 30px;
+}
+
+.nav-link {
+	color: #232631;
+	font-weight: 500;
+	font-size: 1em;
+}
+
+.active {
+	display: inline-block;
+	border-bottom: 2px solid #5a4fcf;
+	border-radius: 2px;
+	padding-bottom: 2px;
+}
+
+.navbar-brand {
+	font-family: Nunito;
+	font-weight: 800;
+	font-size: 1.75em;
+}
+
+.navbar-logo {
+	width: 34px;
+	height: 34px;
+	margin-right: 8px;
+}
+
+input#search {
+	background-image: url(../assets/images/Search.png);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: 5% 50%;
+	text-indent: 22px;
+	background-color: #ffffff;
+	padding: 16px 28px;
+	border: none;
+	width: 20em;
+	border-radius: 12px;
+}
+
+input.form-control {
+	padding: 16px 59px 16px 28px;
+	font-size: 1em;
+	font-weight: 500;
+	background-color: #ffffff;
+	color: #858585;
+	border: none;
+	border-radius: 12px;
+}
+
+.btn-login {
+	background-color: rgba(90, 79, 207, 0.1);
+	border: none;
+	color: #5a4fcf;
+	font-size: 1em;
+	font-weight: 600;
+	padding: 16px 28px;
+	border-radius: 12px;
+}
+
+.btn-login:hover {
+	background-color: rgba(149, 139, 255, 0.1);
+	border: none;
+	color: #5a4fcf;
+	font-size: 1em;
+	font-weight: 600;
+	padding: 16px 28px;
+	border-radius: 12px;
+}
+.image {
+	padding-left: 77px;
+}
+
+.image-restaurant {
+	width: 1120px;
+	height: 564px;
+	border-radius: 24px;
+}
+
+.card-reservation {
+	border: none;
+	border-radius: 24px;
+	padding: 24px 140px 24px 24px;
+}
+
+p {
+	margin-bottom: 0px;
+}
+
+p#text-rating {
+	color: #ffb800;
+	font-weight: 600;
+	font-size: 1.125em;
+	margin-right: 4px;
+}
+
+p#text-rating-amount {
+	font-size: 1em;
+	color: #656565;
+	margin-right: 1px;
+}
+
+p#text-rating-nearby {
+	color: #ffb800;
+	font-weight: 600;
+	font-size: 1em;
+	margin-right: 4px;
+}
+
+p#text-rating-amount-nearby {
+	font-size: 1em;
+	color: #656565;
+	margin-right: 1px;
+}
+
+.rating > img {
+	width: 18px;
+	height: 18px;
+	margin-right: 2px;
+	margin-top: 2px;
+}
+
+p#restaurant-name {
+	font-size: 1.375em;
+	font-weight: 600;
+	color: #232631;
+	margin-bottom: 4px;
+}
+
+p#price-range {
+	font-size: 1.125em;
+	font-weight: 600;
+	color: #656565;
+	margin-bottom: 4px;
+}
+
+.location > img {
+	width: 24px;
+	height: 24px;
+	margin-right: 6px;
+}
+
+#grey {
+	font-size: 1em;
+	color: #656565;
+}
+
+#semi-bold-grey-18 {
+	font-size: 1.125em;
+	color: #656565;
+	font-weight: 600;
+}
+
+.btn-reservation {
+	background-color: #fdc886;
+	border-radius: 12px;
+	border: none;
+	margin-top: 45px;
+	margin-bottom: 6px;
+	font-weight: 600;
+	font-size: 1em;
+	padding: 16px 28px 16px 28px;
+}
+
+.btn-reservation:hover {
+	background-color: #fdc886;
+	border-radius: 12px;
+	border: none;
+}
+
+#grey > img {
+	color: #656565;
+	width: 24px;
+	margin-right: 6px;
+}
+
+.bottom-title {
+	margin-top: 120px;
+	margin-bottom: 34px;
+}
+
+p#title-based {
+	font-size: 1em;
+	margin-bottom: 6px;
+	color: #5a4fcf;
+}
+
+p#title-near {
+	font-size: 1.75em;
+	font-weight: 600;
+}
+
+.btn-location {
+	padding: 20px 24px 20px 24px;
+	background-color: #f2f2f2;
+	border-radius: 12px;
+	border: none;
+}
+
+.btn-location:hover {
+	padding: 20px 24px 20px 24px;
+	background-color: #f2f2f2;
+	border-radius: 12px;
+	border: none;
+}
+
+.btn-location > img {
+	width: 24px;
+	margin-right: 6px;
+}
+
+.bottom-image {
+	margin-top: 34px;
+	margin-bottom: 56px;
+}
+
+.nearby-card {
+	width: 32%;
+	height: 415px;
+	background-size: cover;
+	border-radius: 24px;
+	padding: 0px 24px 33px 24px;
+}
+
+#nearby-1 {
+	background-image: url(../assets/images/image-1.png);
+}
+
+#nearby-2 {
+	background-image: url(../assets/images/image-2.png);
+}
+
+#nearby-3 {
+	background-image: url(../assets/images/image-3.png);
+}
+
+.nearby-card > .card {
+	padding: 24px;
+	width: 379px;
+	border-radius: 24px;
+}
+
+.btn-arrow {
+	width: 36px;
+	height: 36px;
+	background-color: #fdc886;
+	border-radius: 12px;
+}
+
+.btn-arrow > img {
+	width: 12px;
+}
+
+.detail {
+	width: 260px;
+}
+
+#semi-bold-black-18 {
+	font-size: 1.125em;
+	font-weight: 600;
+	color: #232631;
+	margin: 0px;
+}
+
+#semi-bold-black-22 {
+	font-size: 1.375em;
+	font-weight: 600;
+	color: #232631;
+	margin: 0px;
+}
+
+#semi-bold-grey {
+	font-size: 1.125em;
+	font-weight: 600;
+	color: #656565;
+	margin: 0px;
+}
+
+.btn-detail {
+	width: 36px;
+	height: 36px;
+	border-radius: 12px;
+	background-color: #fdc886;
+	margin-left: 35px;
+	padding: 6px 6px 6px 6px;
+	border: none;
+}
+
+.btn-detail:hover {
+	width: 36px;
+	height: 36px;
+	border-radius: 12px;
+	background-color: #fdc886;
+	margin-left: 35px;
+	padding: 6px 6px 6px 6px;
+	border: none;
+}
+
+#arrow > img {
+	margin: 0px;
+	width: 18px;
+}
+
+.btn-all {
+	padding: 16px 28px 16px 28px;
+	font-size: 1em;
+	font-weight: 600;
+	background-color: #fdc886;
+	border-radius: 12px;
+	border: none;
+	margin-top: 56px;
+	margin-bottom: 120px;
+}
+
+.btn-all:hover {
+	padding: 16px 28px 16px 28px;
+	font-size: 1em;
+	font-weight: 600;
+	background-color: #fdc886;
+	border-radius: 12px;
+	border: none;
+}
+
+.btn-all-chef {
+	padding: 16px 28px 16px 28px;
+	font-size: 1em;
+	font-weight: 600;
+	background-color: #fdc886;
+	border-radius: 12px;
+	border: none;
+	margin-top: 48px;
+}
+
+.btn-all-chef:hover {
+	padding: 16px 28px 16px 28px;
+	font-size: 1em;
+	font-weight: 600;
+	background-color: #fdc886;
+	border-radius: 12px;
+	border: none;
+}
+
+#arrow-right {
+	width: 24px;
+}
+
+.chef-card {
+	width: 660px;
+	height: 848px;
+	background-size: 560px 848px;
+	background-position: 60px 0px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/images/chef.png);
+	margin-top: 7px;
+}
+
+.workplace {
+	width: 330px;
+	height: 180px;
+	padding: 24px 24px 24px 24px;
+	border-radius: 24px;
+	margin-top: 628px;
+}
+
+.experience {
+	width: 179px;
+	height: 203px;
+	padding: 30px 46px 30px 46px;
+	border-radius: 24px;
+	margin-top: 40px;
+	float: right;
+}
+
+.badge {
+	padding: 15px;
+	background-color: #fff7ed;
+	margin-bottom: 12px;
+}
+
+.badge > img {
+	width: 50px;
+}
+
+.image-workplace {
+	width: 96px;
+	border-radius: 12px;
+	margin-right: 12px;
+}
+
+.detail-workplace {
+	margin-top: 15px;
+}
+
+#semi-bold-gold-16 {
+	margin-top: 24px;
+	font-size: 1em;
+	font-weight: 600;
+	color: #fdc886;
+}
+
+#top-expert {
+	color: #5a4fcf;
+	font-size: 1.125em;
+	font-weight: 600;
+}
+
+#place-expert {
+	font-size: 2em;
+	font-weight: 600;
+	margin-bottom: 32px;
+}
+
+.expert-card {
+	width: 596px;
+	height: 141px;
+	padding: 24px 24px;
+	margin-bottom: 20px;
+	border-radius: 24px;
+	border: none;
+}
+
+#gold-16 {
+	font-size: 1em;
+	color: #fdc886;
+}
+
+#semi-bold-black-22 {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+/* Benefit */
+#benefit {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+#icon-benefit {
+	width: 64px;
+	margin: 24px auto 24px auto;
+}
+
+.benefit-card {
+	border: none;
+	padding: 0;
+	height: 345px;
+	border-radius: 24px;
+}
+
+.benefit-card-text {
+	margin: 12px 1.5em 54px 1.5em;
+	font-size: 1em;
+}
+
+.btn-card-detail {
+	width: 100%;
+	padding: 24px 0;
+	font-size: 1em;
+	color: #232631;
+	font-weight: 600;
+	position: absolute;
+	bottom: 0;
+	border-radius: 12px 12px 24px 24px;
+	border: none;
+}
+
+.btn-card-detail:hover {
+	width: 100%;
+	margin: 0;
+	border: none;
+	padding: 24px 0;
+	border-radius: 12px 12px 24px 24px;
+	background-color: #fdc886;
+}
+
+/* Featured */
+
+#featured-img-1 {
+	background: url(../assets/images/featured-1.png);
+	border-radius: 24px;
+	background-size: cover;
+	height: 475px;
+}
+
+#featured-img-2 {
+	background: url(../assets/images/featured-2.png);
+	border-radius: 24px;
+	background-size: cover;
+	height: 475px;
+}
+
+#featured-img-3 {
+	background: url(../assets/images/featured-3.png);
+	border-radius: 24px;
+	background-size: cover;
+	height: 475px;
+}
+
+#featured-card {
+	border: none;
+	border-radius: 24px;
+	background-color: #ffffff;
+	margin-bottom: 24px;
+	padding: 1em;
+}
+
+.btn-card-featured {
+	border: none;
+	width: 36px;
+	height: 36px;
+	background-color: #fcbd71;
+	border-radius: 12px;
+}
+
+.btn-card-featured:hover {
+	border: none;
+	width: 36px;
+	height: 36px;
+	background-color: #fcbd71;
+	border-radius: 12px;
+}
